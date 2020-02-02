@@ -4,6 +4,6 @@ def prime?()
       if(n % i == 0)
         {
           "Not Prime"
-          break 
+          break
         }
-    } 
+    }

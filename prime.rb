@@ -7,3 +7,4 @@ def prime?()
           break
         }
     }
+end

@@ -5,4 +5,3 @@ def is_prime?(num)
     "false"
   end
 end
-

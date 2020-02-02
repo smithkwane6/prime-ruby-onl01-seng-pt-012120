@@ -1,4 +1,4 @@
-for(i=2,i<n,++i)
-  if (n%i == 0)
-    break
-    count << (i==n? "Prime Number":"Not a Prime")
+def is_prime?(num)
+  return if num <= 1
+  (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+end
